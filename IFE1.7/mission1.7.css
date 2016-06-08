@@ -1,0 +1,397 @@
+* {
+	font-family: SimHei;
+}
+li {
+	list-style: none;
+	display: inline;
+}
+nav {
+	position: relative;
+	width: 1300px;
+	height: 50px;
+}
+.name {
+	position: absolute;
+	left:0;
+	overflow: hidden;
+	text-align: center;
+}
+.name p {
+	float: left;
+
+}
+.logo {
+	height: 50px;
+	float: left;
+}
+.navbar {
+	position: absolute;
+	right: 0;
+}
+.navbar a {
+	text-decoration: none;
+	color: black;
+}
+.begin-one {
+	position: relative;
+	width: 1300px;
+	height: 550px;
+	background-image: url(begin.jpg);
+
+}
+.begin-one h1 {
+	margin:0;
+	position: absolute;
+	top: 30%;
+	left: 100px;
+	font-size: 35px;
+	color: white;
+}
+.begin-one p {
+	position: absolute;
+	top: 35%;
+	left: 100px;
+	color: white;
+}
+.begin-one button {
+	position: absolute;
+	top: 55%;
+	left: 100px;
+	background-color: #E74F4D;
+	color: white;
+	width: 200px;
+	height: 50px;
+	font-size: 25px;
+	border:0;
+}
+.begin-one a {
+	text-decoration: none;
+	color: white;
+}
+.begin-two hr {
+	float: left;
+	height: 50px;
+	width: 1px;
+	
+	margin:0 0 0 50px;
+	display: inline;
+	background-color: black;
+
+}
+
+.begin-two div{
+	width: 200px;
+	margin-left: 50px;
+	float: left;
+	text-align: center;
+}
+.begin-two img {
+	padding-left: 50px;
+	padding-right: 150px;
+}
+.search {
+
+	width: 1300px;
+	height: 200px;
+	margin-top: 100px;
+	background-color: #EDECEC;
+}
+.search img {
+	margin-left: 550px;
+	margin-top: 20px;
+}
+.search p {
+	color: #A1A1A1;
+	font-size: 30px;
+	margin-left: 400px;
+	margin-top: 0;
+}
+.infor {
+	position: relative;
+	background-image: url(infor.jpg);
+	width: 1300px;
+	height: 350px;
+	margin: 0;
+}
+.infor h2 {
+	margin-top: 0;
+	position: absolute;
+	top: 25%;
+	left: 35%;
+	color: white;
+	font-size: 30px;
+}
+.infor p {
+	position: absolute;
+	top: 35%;
+	left: 30%;
+	color: white;
+}
+.select {
+	position: absolute;
+	top: 60%;
+	left: 15%;
+	color: white;
+	height: 25px;
+	font-size: px;
+}
+.infor select {
+	width: 150px;
+	height: 25px;
+	margin-right: 70px;
+	display: inline;
+}
+.infor button {
+	width: 150px;
+	height: 25px;
+	color: white;
+	background-color: #E74F4D;
+	border:0;
+}
+.details {
+	width: 1300px;
+	height: 400px;
+	background-color: #F7F7F7;
+}
+.details ul {
+	margin-left: 50px;
+}
+.details li {
+	list-style: none;
+	display: inline-block;
+	margin-right: 70px;
+	text-align: center;
+}
+.details img {
+	background-color: white;
+	padding: 10px;
+	border:1px solid #E1E1E1;
+}
+.details h3 {
+	font-size: 15px;
+	margin: 10px;
+}
+.details p {
+	font-size: 10px;
+	margin: 5px;
+}
+.more div {
+	float: left;
+	position: relative;
+}
+.more hr {
+	width: 50px;
+	height: 1px;
+	background-color: white;
+}
+.model-1 {
+	background-image: url(model-1.jpg);
+	width: 800px;
+	height:400px;
+	text-align: center;
+}
+.name1 {
+	font-size: 25px;
+	color: white;
+	margin-top: 100px;
+	margin-bottom: 0;
+}
+.name2 {
+	font-size: 80px;
+	font-weight: bold;
+	color: white;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.where,.when {
+	font-size: 15px;
+	color: white;
+}
+
+.model-2 {
+	width: 500px;
+	height: 400px;	
+	text-align: center;
+}
+.model-2 h3 {
+	margin-top: 100px;
+	margin-bottom: 0;
+}
+.model-2 p {
+	width: 350px;
+	color: #DADADA;
+	position: absolute;
+	left: 70px;
+	top: 120px;
+	padding: 10px;
+	line-height:25px;
+	font-size: 10px;
+	font-family: SimSun;
+
+}
+.model-2 button {
+	margin-top: 200px;
+	color: #E74F4D;
+	background-color: white;
+	border:1px solid #E74F4D;
+	margin-top: 150px;
+	width: 80px;
+	height: 30px;
+}
+.model-2 span {
+	color: #E74F4D;
+}
+.model-3 {
+	background-color: #E74F4D;
+	color: white;
+	width: 400px;
+	height: 300px;
+	text-align: center;
+}
+.model-3 h3 {
+	margin-top: 100px;
+}
+.model-3 button {
+	margin-top: 200px;
+	color: white;
+	background-color: #E74F4D;
+	border:1px solid white;
+	margin-top: 20px;
+	width: 80px;
+	height: 30px;
+}
+.model-4 {
+	width: 400px;
+	height: 300px;
+	text-align: center;
+}
+.model-4 h3 {
+	margin-top: 100px;
+}
+.model-4 hr {
+	background-color: black;
+}
+.model-4 button {
+	margin-top: 200px;
+	color: #E74F4D;
+	background-color: white;
+	border:1px solid #E74F4D;
+	margin-top: 20px;
+	width: 80px;
+	height: 30px;
+}
+.model-5 {
+	width: 500px;
+	height: 300px;
+	background-image: url(newTime-1.jpg);
+}
+.volunteer {
+	width: 1300px;
+	height: 700px;
+}
+.slogan {
+	float: left;
+	width: 1300px;
+	height: 35%;
+	text-align: center;
+}
+.slogan h3 {
+	margin-top: 5%;
+}
+.slogan hr {
+	width: 50px;
+	border:1px solid #E74F4D;
+
+}
+.slogan p {
+	margin-top: 20px;
+	color: #DADADA;
+	line-height:25px;
+	font-size: 10px;
+	font-family: SimSun;
+	font-weight: bold;
+}
+.must-know {
+	position: relative;
+	width: 400px;
+	float: left;
+	margin-bottom: 100px;
+}
+.must-know h3 {
+	font-size: 15px;
+	margin-left: 70px;
+}
+.must-know p {
+	width: 300px;
+	margin-left: 70px;
+	color: #D2D1D1;
+	font-size: 15px;
+}
+.must-know a {
+	position: relative;
+	right: -250px;
+	margin: 0;
+	text-decoration: none;
+	color: black;
+}
+.must-input {
+	position: relative;
+	width: 800px;
+	margin-left: 50px;
+	float: left;
+	
+}
+.must-input-1 {
+	margin-left: 20%
+}
+.must-input input {
+	width: 200px;
+	height: 30px;
+	background-color: #ECECEE;
+	border:0;
+	margin: 5px;
+}
+.must-input textarea {
+	width: 420px;
+	height: 150px;
+	background-color: #ECECEE;
+	border:0;
+	margin-left: 20%;
+}
+.must-input button {
+	width: 420px;
+	height: 30px;
+	margin: 10px;
+	background-color:  #ECECEE;
+	border:0;
+	margin-left: 20%;
+	margin-bottom: 45px;
+}
+.contact {
+	height: 400px;
+	width: 1300px;
+	float: left;
+	background-color: #32353E;
+	text-align: center;
+	color: white;
+
+}
+.contact h3 {
+	margin-top: 100px;
+}
+.contact p {
+	margin-left: 350px;
+	width: 550px;
+}
+.contact input {
+	width: 500px;
+	height: 25px;
+}
+.contact button {
+	width: 100px;
+	height: 30px;
+	color: white;
+	background-color: #6F7278;
+	border:0;
+	font-size: 15px;
+}
