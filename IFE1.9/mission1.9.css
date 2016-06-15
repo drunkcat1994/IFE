@@ -1,0 +1,478 @@
+body {
+	margin: 0;
+}
+* {
+	font-family: SimHei;
+}
+nav {
+	background-color: #2189BF;
+	height:50px;
+	position: relative;
+}
+.logo {
+	position: absolute;
+	left: 50px;
+}
+nav div {
+	position: absolute;
+	right: 50px;
+	margin-top: 10px;
+}
+.left {
+	position: relative;
+	width: 20%;
+	height: 1500px;/*这样设置高度并不太好*/
+	background-color: #2A2E3D;
+	float: left;
+}
+.profile {
+	height: 70px;
+	width: 70px;
+	background-color: white;
+	border:3px solid red;
+	border-radius: 50px 50px 50px 50px;
+	margin-top: 20px;
+	margin-left: 10%;
+}
+.name {
+	position: absolute;
+	right: 30%;
+	top: 50px;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+}
+.left ul {
+	list-style: none;
+	margin-left: 70px;
+
+}
+.left li {
+	color: #5D6B7D;
+	font-weight: bold;
+	font-size: 15px;
+	line-height: 5px;
+	display: inline-block;
+	padding: 0;
+	margin-right: 30px;
+}
+.left hr {
+	width: 1px;
+	height: 30px;
+	background-color: #5D6B7D;
+	border:1px solid #5D6B7D;
+	margin-right: 30px;
+	display: inline-block;
+}
+.left a {
+	text-decoration: none;
+	color: #6E8095;
+}
+.tab-1 {
+	width: 100%;
+	background-color: #383D4E;
+	color: white;
+}
+.unselected {
+	color: #6E8095;
+}
+.tab-1 h1 {
+	font-weight: bold;
+	font-size: 20px;
+	margin-left: 70px;
+}
+.tab-1 h2 {
+	font-size: 15px;
+	margin-left: 100px;
+}
+.tab-1 h3 {
+	font-size: 10px;
+	margin-left: 130px;
+}
+.tab-2,.tab-3,.tab-4,.tab-5,.tab-6{
+	font-size: 20px;
+	margin-left: 100px;
+	margin-top: 25px;
+
+} 
+.right{
+	background-color: #EEEEED;
+	float: left;
+	width: 80%;
+
+}
+.navbar {
+	background-color: white;
+	height: 40px;
+	color: #C2C2C2;
+	margin-top: 0;
+}
+.navbar p {
+	margin-left: 20px;
+	margin-top: 0;
+	padding-top: 10px;
+}
+.row-1 {
+	width:90%;
+	height: 120px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	margin-left: 5%;
+	background-color: white;
+}
+.row-1 div {
+	float: left;	
+	margin-left: 10px;
+	margin-top:30px;
+}
+.col-1 {
+	margin-right: 20px;
+}
+.col-2 {
+	width: 200px;
+	margin: 10px;
+	line-height: 30px;
+}
+.col-2 select {
+	width: 150px;
+	height: 30px;
+}
+label {
+	color: #BCBCBC;
+}
+.row-1 label {
+	color: #BCBCBC;
+}
+.row-1 select {
+	height: 30px;
+	display: inline;
+}
+.long {
+	width: 150px;
+}
+.row-1 button {
+	height:30px;
+	width: 50px;
+	margin-top: 50px;
+	margin-left: 20px;
+	background-color: #3A8BC2;
+	color: white;
+	border:0;
+}
+.row-2 {
+	margin-left: 5%;
+}
+.row-2 div {
+	float: left;
+	background-color: white;
+	margin-right: 10px;
+	height: 100px;
+}
+.row-2-front {
+	width: 40px;
+	text-align: center;
+	font-size: 30px;
+}
+.row-2-content {
+	width: 120px;
+	text-align: center;
+}
+.RMB {
+	font-size: 20px;
+	color: #F08846;
+	font-weight: bold;
+}
+.money-logo {
+	color: #B0B0B0;
+	font-weight: bold;
+	font-size: 25px;
+}
+.row-2-end {
+	width: 40px;
+	text-align: center;
+	font-size: 30px;
+}
+.search-history {
+	width: 90px;
+	text-align: center;
+	clear: right;
+
+}
+.search-history p {
+	margin-top: 40px;
+}
+.row-3 {
+	margin-left: 5%;
+}
+.row-3 h2 {
+	font-size: 15px;
+	margin-top: 20px;
+	margin-left: 5%;
+	margin-bottom: 10px;
+	width: 90%;
+	float: left;
+}
+.row-3 div {
+	width: 220px;
+	height: 70px;
+	float: left;
+	background-color:white;
+	margin-right: 30px;
+	border-top:1px solid #D5D7D9;
+	border-right: 1px solid #D5D7D9;
+	border-bottom:1px solid #D5D7D9;
+}
+.row-3-content-1 {
+	border-left: 4px solid #43B29E;
+	position: relative;
+}
+.placeholder-1 {
+	width: 70px;
+	height: 50px;
+	background-color: #43B29E;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+.row-3-content-2{
+	border-left: 4px solid #388AC1;
+	position: relative;
+}
+.placeholder-2 {
+	width: 70px;
+	height: 50px;
+	background-color: #388AC1;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+.row-3-content-3 {
+	border-left: 4px solid #D04B36;
+	position: relative;
+}
+.placeholder-3 {
+	width: 70px;
+	height: 50px;
+	background-color: #D04B36;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+.row-3-content-4 {
+	border-left: 4px solid #E2CD47;
+	position: relative;
+}
+.placeholder-4 {
+	width: 70px;
+	height: 50px;
+	background-color: #E2CD47;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+.block {
+	margin-left: 4%;
+	width: 95%;
+}
+.block div {
+	margin-top: 10px;
+	border-radius: 15px;
+}
+.block span {
+	display: inline-block;
+	height: 40px;
+	width: 100%;
+	background-color: #F4F5F7;
+	color: #BABABA;
+	border-bottom:1px solid #BABABA;
+	border-radius: 15px 15px 0 0;
+}
+.block h2 {
+	font-size: 15px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.block-1 {
+	border:1px solid #D5D7DA;
+	width: 60%;
+	height: 350px;
+	float: left;
+	background-color: white;
+}
+.block-1 ul {
+	margin-left: 14px;
+	margin-bottom: 0;
+}
+.block-1 li {
+	width: 80px;
+	height: 20px;
+	text-align: center;
+	background-color: #EDEDF0;
+	color: black;
+	display: inline-block;
+}
+#add-border {
+	border:1px solid #E5E5E6;
+	margin-top: 0;
+	margin-left:10%;
+	width: 80%;
+	height:70%;
+	border-radius: 0;
+
+}
+.block-1 table {
+	border:2px solid #EDEDF0;
+	margin: 5%;
+	width: 90%;/*它的容器元素设置的宽度若过大，则这个表格可能看起来没有居中*/
+	border-collapse: collapse;
+
+}
+.block-1 td {
+	border:1px solid #EDEDF0;
+	text-align: center;
+	height: 35px;
+	width: 50px;
+}
+.block-2 {
+	border:1px solid #D5D7DA;
+	width: 36%;
+	height: 350px;
+	float: left;
+	background-color: white;
+	margin-left: 10px;
+}
+.project-detail {
+	margin: 20px;
+}
+.block-2 ul {
+	list-style: none;
+	border-top:1px solid #D5D7DA;
+	border-bottom: 1px solid #D5D7DA;
+	padding-left: 10px;
+}
+.block-2 li{
+	display: inline-block;
+	border-left: 0;
+	margin-right: 20px;
+	line-height: 10px;
+}
+.block-2 h3 {
+	color: #D5D7DA;
+	font-size: 15px;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+.block-2 p {
+	margin-left: 20px;
+	font-size: 15px;
+}
+.project-price {
+	border-right: 1px solid #D5D7DA;
+	padding-right: 20px;
+}
+.block-2 button {
+	margin-left:28%;
+	width: 50px;
+	height: 20px;
+	background-color: #3A8BC3;
+	color: white;
+	border:0;
+}
+.block input {
+
+}
+.block-3 {
+	width: 42%;
+	border:1px solid #D5D7DA;
+	height: 450px;
+	float: left;
+	background-color: white;
+	margin-left: 10px;
+}
+.block-3 table {
+	margin-left: 35px;
+	line-height: 25px;
+	border-collapse: collapse;
+}
+.block-3 td {
+	text-align: center;
+	padding-right: 10px;
+	font-size: 15px;
+}
+.choose {
+	margin-left: 35px;
+	margin-bottom: 10px;
+}
+.week {
+	border-top:1px solid #3A8BC3;
+	border-bottom: 1px solid #E4E4E6;
+}
+.block-4 {
+	width: 52%;
+	height: 450px;
+	float: left;
+	background-color: white;
+	margin-left: 15px;
+	margin-bottom: 100px;
+}
+.block-4 table {
+	border-collapse: collapse;
+	line-height: 10px;
+	margin: 10px;
+
+}
+.block-4 td{
+	border:1px solid #D5D7DA;
+	height: 30px;
+	margin: 10px;
+	min-width: 100px;
+	text-align: center;
+}
+.line {
+	display: inline-block;
+	width: 200px;
+	height: 3px;
+	border:1px solid #D5D7DA;
+}
+.percent {
+	height: 3px;
+	margin: 0;
+	padding: 0;
+	border:0;
+}
+.rank-2 .percent {
+	background-color: red;
+	width: 80%;
+}
+.rank-3 .percent {
+	background-color: orange;
+	width: 70%;
+}
+.rank-4 .percent {
+	background-color: yellow;
+	width: 65%;
+}
+.rank-5 .percent {
+	background-color: blue;
+	width: 62%;
+}
+.rank-6 .percent {
+	background-color: green;
+	width: 50%;
+}
+.rank-7 .percent {
+	background-color: green;
+	width: 50%;
+}
+.rank-8 .percent {
+	background-color: green;
+	width: 50%;
+}
+.rank-9 .percent {
+	background-color: green;
+	width: 50%;
+}
+.rank-10 .percent {
+	background-color: green;
+	width: 50%;
+}
