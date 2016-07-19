@@ -1,0 +1,11 @@
+#show-board {
+	width: 1200px;
+}
+#show-board div {
+	height: 100px;
+	width: 100px;
+	color: black;
+	background-color: green;
+	display: inline-table;
+	margin:10px;
+}
