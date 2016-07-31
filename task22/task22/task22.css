@@ -1,0 +1,28 @@
+.root {
+	border:1px solid black;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: white;
+}
+.root.one {
+
+	width:800px;
+	height: 300px;
+}
+.root.two {
+	width: 380px;
+	height: 250px;
+}
+.root.three {
+	width: 180px;
+	height: 200px;
+}
+.root.four {
+	width: 80px;
+	height: 150px;
+}
+.root.five {
+	width: 30px;
+	height: 100px;
+}
