@@ -1,0 +1,39 @@
+.root {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-self: space-around;
+	margin: 5px;
+	border:1px solid black;
+	background-color: white;
+	position: relative;
+}
+.root.one {
+	width: 1200px;
+	height: 500px;
+}
+.root.two {
+	width: 580px;
+	height: 450px;
+}
+.root.three {
+	width: 250px;
+	height: 400px;
+}
+.root.four {
+	width: 60px;
+	height: 350px;
+}
+.root.five {
+	width: 15px;
+	height: 300px;
+}
+#control {
+	margin: 20px;
+}
+p {
+	
+	font-size: 10px;
+}
